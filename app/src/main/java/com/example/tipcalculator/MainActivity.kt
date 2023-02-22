@@ -112,7 +112,7 @@ fun TipCalculatorScreen(){
 
 
 
-private fun calculateTip(
+internal fun calculateTip(
     amount: Double,
     tipPercent:Double,
     roundUp: Boolean
